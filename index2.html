@@ -123,7 +123,7 @@ body {
 		width: 100%;
 		padding: 0;
 		margin: 0;
-        background-color: rgba(1, 102, 255, 0.3);
+    background-color: rgba(1, 102, 255, 0.3);
 	}
 
 
@@ -133,30 +133,11 @@ body {
 		outline: 0;
 		margin-top: 350px;
 		padding-right: 20px;
-		cursor: pointer;
-		padding: 12px 30px;
-		margin-right: 10px;
-		border:0;
-		color: white;
-		font-size: 17.5px;
-		background: rgb(10, 10, 10);
-		background: linear-gradient(45deg,#ffffff,#363636 50%,#000000);
-		font-weight: 700;
-		border-radius: 30px;
-		transition: background,color 0.6s ease-in-out;
-		box-shadow: 3px 3px rgb(138, 138, 138);
-    width: 400px;
- 
+    background: none;
+    border-style: none;
+    overflow: hidden;
 	}
 
-	.my-button:hover,.my-button1:hover{
-		background: linear-gradient(45deg,#000000,#555555 50%,#ffffff);
-		background-color: #04AA6D; /* Green background */
-		border: none; /* Remove borders */
-		color: white; /* White text */
-            
-            
-        }
 
 	#loading-overlay {
 		display: none;
@@ -198,11 +179,11 @@ body {
 	}
 
   #button1{
-    margin-right: 210px;
+    margin-right: 300px;
   }
 
   #button2{
-    margin-left: 210px;
+    margin-left: 0px;
   }
 
 
@@ -237,6 +218,7 @@ body {
 
       #button1 , #button2{
         margin: 100px 0;
+        
       }
 
 	  #button-container{
@@ -320,6 +302,20 @@ body {
 </head>
 
 <body>
+
+
+
+  <nav>
+    <img src="security.svg" class="logo"   alt="">
+  </nav>
+
+
+
+
+
+
+
+
     <div class="container">
         
         
@@ -333,18 +329,15 @@ body {
 
         <div id="video-overlay"></div>
 
-        <nav>
-          <img src="security.svg" class="logo"   alt="">
-        </nav>
+
 
 
 
     <div id="button-container">
     
-    <button id="button1"   onclick="window.location.href='https://www.Google.com'" class="my-button"> <img src="security.svg" width="55" height="30" alt=""> <br>
-        Vision Time-laps</button>
+    <button id="button2"   onclick="window.location.href='https://www.Google.com'" class="my-button1"> <img src="BUTTON1.svg" width="1200" height="80" alt=""> </button>
     
-    <button id="button2" class="my-button1"><img src="security.svg" width="55" height="30" alt=""> <br> Project System management</button>
+    <button id="button1"   onclick="window.location.href='https://www.Google.com'" class="my-button"> <img src="BUTTON2.svg" width="1200" height="80" alt=""> </button>
     </div>
     <div id="loading-overlay">
         <div class="spinner"></div>
