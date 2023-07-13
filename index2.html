@@ -44,13 +44,15 @@ body {
 }
 
 #svg {
-  height: 150px;
-  width: 150px;
+  height: 110px;
+  width: 110px;
   stroke: white;
   fill-opacity: 0;
-  stroke-width: 3px;
-  stroke-dasharray: 4500;
-  animation: draw 8s ease;
+  stroke-width: 1px;
+  stroke-dasharray: 1500;
+  animation: draw 30s ease;
+  display: flex;
+  align-items: center;
 }
 
 @keyframes draw {
@@ -72,8 +74,12 @@ body {
   font-size: 20px;
   letter-spacing: 12px;
   text-transform: uppercase;
-  margin-left: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
   font-weight: bolder;
+  margin-left: 40px;
+ 
 }
 
 
@@ -399,9 +405,9 @@ body {
 
     <div id="button-container">
     
-    <button id="button2"   onclick="window.location.href='https://www.Google.com'" class="my-button1"> <img src="BUTTON1.svg" width="1200" height="80" alt=""> </button>
+    <button id="button2"   onclick="window.location.href='https://www.Google.com'" class="my-button1"> <img src="b1.svg" width="1200" height="80" alt=""> </button>
     
-    <button id="button1"   onclick="window.location.href='https://www.Google.com'" class="my-button"> <img src="BUTTON2.svg" width="1200" height="80" alt=""> </button>
+    <button id="button1"   onclick="window.location.href='https://www.Google.com'" class="my-button"> <img src="b2.svg" width="1200" height="80" alt=""> </button>
     </div>
     <div id="loading-overlay">
         <div class="spinner"></div>
@@ -425,10 +431,7 @@ body {
 
 
     <div class="loading-page">
-        <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <path
-                d="M19.7 34.5c16.3-6.8 35 .9 41.8 17.2L192 364.8 322.5 51.7c6.8-16.3 25.5-24 41.8-17.2s24 25.5 17.2 41.8l-160 384c-5 11.9-16.6 19.7-29.5 19.7s-24.6-7.8-29.5-19.7L2.5 76.3c-6.8-16.3 .9-35 17.2-41.8z" />
-        </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" id="svg" viewBox="0 0 42.43 42.24"><defs><style>.cls-1{fill:#fff;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M42.43,1.53V12.32c0,12.1-7.67,23.22-20.52,29.75a1.5,1.5,0,0,1-.69.17,1.57,1.57,0,0,1-.7-.17C7.67,35.54,0,24.42,0,12.32V1.53A1.52,1.52,0,0,1,2.6.45l6.91,7A1.5,1.5,0,0,1,10,8.54v6.59C10,21.79,14.16,28.06,21.22,32c7-3.88,11.26-10.16,11.26-16.83V8.54a1.55,1.55,0,0,1,.44-1.08l1.16-1.17L34.35,6,39.84.46A1.46,1.46,0,0,1,40.91,0,1.53,1.53,0,0,1,42.43,1.53Z"/></g></g></svg>
 
 
         <div class="name-container">
